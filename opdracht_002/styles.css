@@ -1,0 +1,32 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: darkblue;
+   
+}
+
+
+li a{
+    color: white;
+}
+
+
+ul:first-child{
+    margin-left: 0;
+    padding-left:0;
+}
+
+.currentPage{
+    background-color: rgb(90, 96, 128);
+}
+
+li a:hover{
+    background-color: lightblue;
+}
+
+input:focus {
+    border: 5px solid aqua;
+}
+
